@@ -2,10 +2,11 @@ import s from './Rightside.module.css'
 import React from 'react';
 import Departure from '../Departure/Departure';
 import Calendar from '../Calendar/Calendar';
-import { NavLink } from 'react-router-dom';
 
 
 function Rightside() {
+
+
   const takeData = (event) => {
     event.preventDefault()
     console.log(123)
@@ -24,7 +25,8 @@ function Rightside() {
 
         <div className={s.find}>
           <Calendar />
-          <NavLink to="/find"> <button> Найти </button></NavLink>
+          {/* <NavLink to="/find"> <button> Найти </button></NavLink> */}
+          <button> Найти </button>
         </div>
       </form>
 
