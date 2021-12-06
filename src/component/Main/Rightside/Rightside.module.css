@@ -1,3 +1,20 @@
 .rightside {
   background-color: violet;
 }
+
+.city{
+  display: flex;
+  justify-content: space-around;
+}
+
+.cityinput {
+ display: flex;
+ flex-direction: column; 
+}
+
+.find{
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
