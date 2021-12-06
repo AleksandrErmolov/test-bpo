@@ -1,10 +1,10 @@
-import s from './Departure.module.css'
+import s from './Arrival.module.css'
 import store from '../../../mock/Data.js'
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
 import Autocomplete from '@mui/material/Autocomplete';
 
-function Departure(props) {
+function Arrival(props) {
 
 
   return (
@@ -21,4 +21,4 @@ function Departure(props) {
   );
 }
 
-export default Departure;
+export default Arrival;
