@@ -3,8 +3,8 @@ function Footer() {
   return (
     <header className={s.footer}>
       <div className={s.wrapper}>
-   <h1> Footer </h1>
-   </div>
+        <h1> Footer </h1>
+      </div>
     </header>
   );
 }

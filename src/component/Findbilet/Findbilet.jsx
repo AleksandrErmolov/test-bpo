@@ -1,21 +1,11 @@
 import s from './Findbilet.module.css'
 import store from '../../mock/Data.js'
 import { useEffect } from 'react';
+import Ticket from './Ticket/Ticket';
 
 
 
 function Findbilet() {
-
-  const getBilet = async () = {
-
-    const response = await fetch('../../mock/ticket.json')
-    const data = await response.json()
-
-  }
-
-  useEffect(() => {
-    getBilet()
-  }, [])
 
 
 
@@ -69,9 +59,11 @@ function Findbilet() {
 
         <div className={s.renderBilet}>
           <h2>Ваши билеты</h2>
+          <Ticket />
         </div>
       </div>
 
+    
     </div>
   );
 }
