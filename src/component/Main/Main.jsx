@@ -6,6 +6,7 @@ function Main() {
     <main className={s.main}>
       <Leftside />
       <Rightside />
+      
     </main>
   );
 }

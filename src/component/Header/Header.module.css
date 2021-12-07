@@ -1,4 +1,8 @@
 .header {
-
   background-color: red;
+}
+
+.wrapper {
+  padding-right: 30px;
+  padding-left: 30px;
 }

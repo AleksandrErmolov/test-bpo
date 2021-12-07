@@ -1,16 +1,16 @@
 import s from './Rightside.module.css'
 import Departure from '../Departure/Departure';
 import Calendar from '../Calendar/Calendar';
-import Bilet from '../Bilet/Bilet';
 import store from '../../../mock/Data.js'
 import Arrival from '../Arrival/Arrival';
 import { NavLink } from 'react-router-dom'
+import React, { useState } from 'react';
+
 
 
 
 function Rightside() {
 
-  
   function setterD(value) {
     store.depature.from = value
     console.log(store.depature.from)
@@ -20,7 +20,6 @@ function Rightside() {
     store.depature.to = value
     console.log(store.depature.to)
   }
-
 
   function date(value) {
     store.depature.date = value;
