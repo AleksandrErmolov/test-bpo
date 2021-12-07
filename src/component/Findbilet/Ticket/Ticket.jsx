@@ -1,17 +1,18 @@
 import s from './Ticket.module.css'
-import store from '../../../mock/Data.js'
-import tickets from '../../../mock/ticket.json'
+// import store from '../../../mock/Data.js'
+// import tickets from '../../../mock/ticket.json'
 
-function Ticket() {
-  var tkts = [...tickets]
-  console.log(tkts)
+function Ticket(props) {
+
+
+
 
   return (
     <div>
       {
-        tkts.map((e, i) => {
+        props.data.map((e, i) => {
           return (
-            <div className={s.ticket}>
+            <div className={s.ticket} key={i}>
               <h3 className={s.ticketNumber}> Билет №{i + 1}</h3>
               <p>Колличесвто пересадок: {e.stops}</p>
               <div className={s.aeroport}>

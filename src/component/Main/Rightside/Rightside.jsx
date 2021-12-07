@@ -45,9 +45,7 @@ function Rightside() {
         </div>
       </form>
 
-      
-
-
+    
     </section >
   );
 }

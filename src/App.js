@@ -1,4 +1,3 @@
-
 import './App.css';
 import Footer from './component/Footer/Footer';
 import Header from './component/Header/Header';
@@ -11,9 +10,9 @@ function App() {
     <div className="wrapper">
       <Header />
       <Routes>
-        <Route path="/" element={<Main  />} />
+        <Route path="/" element={<Main />} />
         <Route path="/find" element={<Findbilet />} />
-</Routes>
+      </Routes>
 
       <Footer />
     </div>

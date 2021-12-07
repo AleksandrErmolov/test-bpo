@@ -12,8 +12,9 @@ const store = {
     ],
 
     depature: {
-        to: '',
+        
         from: '',
+        to: '',
         date: ''
     }
 
