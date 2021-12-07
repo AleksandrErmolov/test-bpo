@@ -13,8 +13,8 @@ function Ticket() {
           return (
             <div className={s.ticket}>
               <h3 className={s.ticketNumber}> Билет №{i + 1}</h3>
-              <p>Колличесвто пересадок: {e.stops} </p>
-              <div className={s.stops}>
+              <p>Колличесвто пересадок: {e.stops}</p>
+              <div className={s.aeroport}>
                 <p>Рейс: <i>{e.origin_name} - {e.destination_name} </i> </p>
                 <p>Из аэропорта: {e.origin}  в аэропорт: {e.destination}</p>
               </div>

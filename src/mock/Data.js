@@ -17,9 +17,6 @@ const store = {
         date: ''
     }
 
-
-    
-
 }
 
 

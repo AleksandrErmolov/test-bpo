@@ -11,7 +11,7 @@ function App() {
     <div className="wrapper">
       <Header />
       <Routes>
-        <Route path="/" element={<Main />} />
+        <Route path="/" element={<Main  />} />
         <Route path="/find" element={<Findbilet />} />
 </Routes>
 

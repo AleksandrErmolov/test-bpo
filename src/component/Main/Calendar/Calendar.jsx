@@ -23,7 +23,7 @@ function Calendar(props) {
   return (
     <LocalizationProvider dateAdapter={AdapterDateFns} locale={ruLocale}>
       <DatePicker
-        mask={maskMap.ru}
+        mask='__.__.____'
         label="Дата вылета"
         value={value}
         onChange={(value) => {
