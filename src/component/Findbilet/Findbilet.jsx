@@ -27,7 +27,7 @@ function Findbilet() {
 
     <div className={s.findbilet}>
       <div className={s.maintitle}>
-        <h1>Ваши билеты</h1>
+        <h1>Ваш маршрут</h1>
         <p>Вы летите из города <span>{store.depature.from}</span> в  город <span>{store.depature.to}</span></p>
         <p><span>{store.depature.date.toString()}</span></p>
       </div>
@@ -71,7 +71,7 @@ function Findbilet() {
 
 
         <div className={s.renderBilet}>
-          <h2>Ваши билеты</h2>
+          {/* <h2>Ваши билеты</h2> */}
           <Ticket data={state} />
         </div>
       </div>

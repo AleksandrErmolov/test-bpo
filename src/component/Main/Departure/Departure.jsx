@@ -8,7 +8,7 @@ function Departure(props) {
 
 
   return (
-    <div>
+    <div className={s.departure}>
       <Autocomplete
         disablePortal
         id="combo-box-demo"
