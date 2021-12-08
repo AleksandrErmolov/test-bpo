@@ -10,7 +10,7 @@ import ruLocale from 'date-fns/locale/ru';
 
 function Calendar(props) {
 
-  const [value, setValue] = React.useState('');
+  const [value, setValue] = React.useState(Date());
   const [locale, setLocale] = React.useState('ru');
 
   const maskMap = {

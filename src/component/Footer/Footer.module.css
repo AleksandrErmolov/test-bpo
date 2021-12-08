@@ -1,5 +1,10 @@
 .footer {
   background-color: #1976D2;
+  color: white;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapper {

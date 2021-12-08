@@ -4,9 +4,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1;
-  min-height: calc(100vh - 200px);
+  min-height: calc(100vh - 164px);
   background-image: url('../../plane2.jpg');
   background-repeat: no-repeat;
-  align-items: center;
-  justify-items: stretch;
+  background-position: center;
+  
 }

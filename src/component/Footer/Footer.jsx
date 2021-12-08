@@ -3,7 +3,7 @@ function Footer() {
   return (
     <footer className={s.footer}>
       <div className={s.wrapper}>
-        <h1> Footer </h1>
+        <h1> Заказ дешёвых авиабилетов </h1>
       </div>
     </footer>
   );

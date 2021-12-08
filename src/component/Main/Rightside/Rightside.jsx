@@ -37,10 +37,10 @@ function Rightside() {
           <Departure city={'Откуда'} onChange={setterD} />
           <Arrival city={'Куда'} onChange={setterA}/>
         </div>
-
+        
         <div className={s.find}>
           <Calendar onChange={date}/>
-          <NavLink to="/find"> <button> Найти </button></NavLink>
+          <NavLink to="/find"> <button className={s.button}> Найти </button></NavLink>
          
         </div>
       </form>
