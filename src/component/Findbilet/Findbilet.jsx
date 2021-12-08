@@ -14,21 +14,40 @@ function Findbilet() {
     timezone: 'UTC'
   };
 
+
   let tkts = [...tickets].filter((e) => {
     // if (e.origin_name === store.depature.from && e.destination_name === store.depature.to && e.departure_date === store.depature.date.toLocaleString("ru", options))
     return true;
   })
 
 
-
-
   const [state, setState] = useState(tkts)
+  const [posts, setPosts] = useState([])
+
+
+  const pushArray = (event) => {
+    // store.checkFiltr.push(event)
+    // setPosts(store.checkFiltr)
+    // console.log("posts", posts)
+  }
 
   const changeBox = (event) => {
-    if (event.target.value > -1)
+
+    if (store.checkFiltr.includes(event.target.value)) {
+      console.log('babai')
+
+    }
+
+    store.checkFiltr.push(event.target.value)
+    setPosts(store.checkFiltr)
+    console.log("posts", posts)
+
+
+    if (event.target.value >= 0)
       setState([...tkts.filter(e => event.target.value == e.stops)])
     else if (event.target.value == 'all')
       setState([...tkts])
+
   }
 
   return (
