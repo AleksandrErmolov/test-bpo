@@ -15,7 +15,7 @@ function Findbilet() {
   };
 
   let tkts = [...tickets].filter((e) => {
-    if (e.origin_name === store.depature.from && e.destination_name === store.depature.to && e.departure_date === store.depature.date.toLocaleString("ru", options))
+    // if (e.origin_name === store.depature.from && e.destination_name === store.depature.to && e.departure_date === store.depature.date.toLocaleString("ru", options))
     return true;
   })
 
