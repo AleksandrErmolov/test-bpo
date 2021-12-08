@@ -5,13 +5,17 @@ import s from './Ticket.module.css'
 function Ticket(props) {
 
   if (props.data.length === 0) {
-    return <h3> Увы, но таких билетов нет 😭</h3>
-    }
-  
+    return (
+      <div>
+        <h3> Увы, но таких билетов нет.</h3>
+        <img src="https://acegif.com/wp-content/uploads/2021/4fh5wi/pepefrg-4.gif" />
+      </div>
+    )
+  }
+
 
 
   return (
-
     <div сlassName={s.ticket}>
       {props.data.map((e, i) => {
         return (

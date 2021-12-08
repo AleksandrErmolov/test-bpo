@@ -7,11 +7,19 @@ import { useState } from 'react';
 
 function Findbilet() {
 
+  var options = {
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric',
+    timezone: 'UTC'
+  };
 
   let tkts = [...tickets].filter((e) => {
-    if (e.origin_name === store.depature.from && e.destination_name === store.depature.to)
-      return true;
+    if (e.origin_name === store.depature.from && e.destination_name === store.depature.to && e.departure_date === store.depature.date.toLocaleString("ru", options))
+    return true;
   })
+
+
 
 
   const [state, setState] = useState(tkts)
@@ -29,7 +37,7 @@ function Findbilet() {
       <div className={s.maintitle}>
         <h1>Ваш маршрут</h1>
         <p>Вы летите из города <span>{store.depature.from}</span> в  город <span>{store.depature.to}</span></p>
-        <p><span>{store.depature.date.toString()}</span></p>
+        <p><span>{store.depature.date.toLocaleString("ru", options)}</span></p>
       </div>
 
       <div className={s.biletinfo}>
