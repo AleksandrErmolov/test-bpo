@@ -10,7 +10,20 @@
         "arrival_time": "23:10",
         "carrier": "TK",
         "stops": 0,
-        "price": 12400
+        "price": 16230
+    },
+    {
+        "origin": "VVO",
+        "origin_name": "Москва",
+        "destination": "TLV",
+        "destination_name": "Самара",
+        "departure_date": "10.12.2021",
+        "departure_time": "17:22",
+        "arrival_date": "12.05.18",
+        "arrival_time": "23:10",
+        "carrier": "TK",
+        "stops": 0,
+        "price": 19123
     },
     {
         "origin": "VVO",
@@ -23,7 +36,7 @@
         "arrival_time": "22:10",
         "carrier": "TK",
         "stops": 3,
-        "price": 12400
+        "price": 11900
     },
     {
         "origin": "VVO",
@@ -36,7 +49,7 @@
         "arrival_time": "22:10",
         "carrier": "TK",
         "stops": 1,
-        "price": 12400
+        "price": 12500
     },
     {
         "origin": "VVO",
@@ -49,7 +62,7 @@
         "arrival_time": "22:10",
         "carrier": "TK",
         "stops": 2,
-        "price": 12400
+        "price": 13100
     },
     {
         "origin": "VVO",
