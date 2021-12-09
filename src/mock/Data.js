@@ -12,7 +12,7 @@ const store = {
     ],
 
     depature: {
-        
+
         from: '',
         to: '',
         date: ''
@@ -20,33 +20,29 @@ const store = {
 
 
     checkFiltr: [
-        
+
+
+        {
+            id: 0,
+            name: 'Без пересадок'
+        },
+
         {
             id: 1,
-            name: 'all'
+            name: '1 пересадка'
+
         },
 
-          {
+
+        {
             id: 2,
-            name: '0'
+            name: '2 пересадки'
         },
-          
+
+
         {
             id: 3,
-            name: '1'
-
-        },
-
-
-        {
-            id: 4,
-            name: '2'
-        },
-
-
-        {
-            id: 5,
-            name: '3'
+            name: '3 пересадки'
         }
 
     ],
